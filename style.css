@@ -1,0 +1,24 @@
+.hearty {
+   /* //position: absolute;*/
+    /*background: url(https://abs.twimg.com/a/1446686284/img/t1/web_heart_animation.png);*/
+
+    background: url(web_heart_animation.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 100px;
+    cursor:pointer;
+}
+
+/*.hearty:hover {
+/*.hearty:active {
+  -webkit-animation: play 1s steps(7) ; 
+}*/
+
+@-webkit-keyframes play {
+   0% { background-position: 0px 0px; }
+    100% { background-position: -2800px 0px; }
+}
